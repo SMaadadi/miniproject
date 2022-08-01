@@ -36,4 +36,6 @@ jobs:
       with:
         # Version Spec of the version to use.  Examples: 10.x, 10.15.1, >=10.15.0
         maven-version: 3.8.2
+    - name: maven version
+      run: mvn -v
     
